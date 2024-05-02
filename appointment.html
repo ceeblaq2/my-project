@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Progect</title>
     <link rel="stylesheet" href="./Css/appointment.css">
+
+     <!-- Navigation link -->
+     <link rel="stylesheet" href="./Css/nav.css">
 </head>
 <body>
     <div class="navbar">
@@ -18,7 +21,7 @@
         <li><a href="#">ABOUT</a></li>
         <li><a href="#">SERVICES</a></li>
         <li><a href="#">DESIGNS</a></li>
-        <li><a href="./Css/contactus.css">CONTACT</a></li>
+        <li><a href="contactus.html">CONTACT</a></li>
     </ul>
         </div>
         </div>
@@ -39,40 +42,40 @@
             <div class="heading-phone">Call Us: +(234) 70-662-642-08</div>
         </div>
         <div class="container-form">
-            <form action="https://formsubmit.co/udohconference5@gmail.com">
+            <form action="https://formsubmit.co/udohconference5@gmail.com" method="post">
             <h2 class="heading-heading-yellow">BOOK YOUR APPOINTMENT</h2>    
 
-        <div class="form-field">
-            <p>Your Name</p>
-            <input type="text" placeholder="Your Name">
-        </div>  
+            <div class="form-field">
+                <p>Your Name</p>
+                <input type="text" placeholder="Your Name" required>
+            </div>  
             
-        <div class="form-field">
-            <p>Your Email</p>
-            <input type="text" placeholder="Your Email@">
-        </div>
+            <div class="form-field">
+                <p>Your Email</p>
+                <input type="text" placeholder="Your Email@" required>
+            </div>
 
-        <div class="form-field">
-            <p>Date</p>
-            <input type="Date">
-        </div>
+            <div class="form-field">
+                <p>Date</p>
+                <input type="Date" required>
+            </div>
 
-        <div class="form-field">
-            <p>Time</p>
-            <input type="time" placeholder="Your name">
-        </div>
+            <div class="form-field">
+                <p>Time</p>
+                <input type="time" placeholder="Your name" required>
+            </div>
 
-        <div class="form-field">
-            <p>What Type of Service</p>
-            <select name="select" id="#">
-             <option value="1">House</option>
-             <option value="2">Hotel</option>
-             <option value="3">Office</option>
-             <option value="4">More</option>
-            </select>
-        </div>
+            <div class="form-field">
+                <p>What Type of Service</p>
+                <select name="select" id="#">
+                    <option value="1">House</option>
+                    <option value="2">Hotel</option>
+                    <option value="3">Office</option>
+                    <option value="4">More</option>
+                </select>
+            </div>
 
-        <button class="btn"><a href="#">SUBMIT</a></button>
+            <button>SUBMIT</button>
             </form>
         </div>
     </div>
@@ -80,6 +83,7 @@
         <div class="footerBottom">
                 <p>copyright @copy;2024; Designed by <span class="designer">Conference</span></p>
             </div>
+            <button class="btn">SUBMIT</button>
          </footer>
 </body>
 </html>

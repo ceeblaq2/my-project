@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    /* background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../Images/kam-idris-_HqHX3LBN18-unsplash.jpg); */
+    background-image: url(../Images/kam-idris-_HqHX3LBN18-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* header{
+    background-image: url(../Images/kam-idris-_HqHX3LBN18-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+} */
+/* .main{
+    width: 30;
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+} */
+
+
+.content{
+    width: 1200px;
+    color: white;
+    /* position: relative; */
+    margin-top: 10%;
+    padding-left: 25%;
+}
+.content .par{
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    padding-right: 50%;
+    padding-left: 7%;
+    letter-spacing: 2px;
+    font-size: 45px;
+}
+.content .cnb{
+    width: 250px;
+    height: 70px;
+    background-color: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 12%;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .cnb a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+    font-family: Arial;
+}
+.cnb:hover{
+    background-color: aliceblue;
+
+}
+/* .footerBottom{
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+} */
+

@@ -1,0 +1,142 @@
+body{
+    /* background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../Images/kam-idris-_HqHX3LBN18-unsplash.jpg); */
+    background-image: url(../Images/kam-idris-_HqHX3LBN18-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar{
+    width: 1200px; 
+    height: 75px; 
+    margin: auto; 
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: -50px;
+    float: left;
+    padding-top: 15px;
+}  
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+
+.container{
+    background-color: #fafafa;
+    margin: 200px;
+    box-shadow: 10px 15px 20px rgba(0, 0, .1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 8%;
+}
+.container-time{
+ background-color: rgba(0, 0, .95);   
+ padding: 50px;
+ outline: 3px dashed orange;
+ outline-offset: -30px;
+text-align: center;
+}
+.heading{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.heading-days{
+    color: orange;
+    font-size: 30px;
+}
+.heading-phone{
+    font-size: 15px;
+}
+.container-form{
+    padding: 20px 0;
+    margin: 0 auto;
+    color: black;
+}
+form{
+    display: grid;
+    grid-row-gap: 20px;
+}
+form p{
+      font-weight: 600;
+}
+.form-field{
+   display: flex;
+   justify-content: space-between;
+}
+input,select{
+    pad: 10px 15px;
+}
+.btn{
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius:100px;
+    box-shadow: 7px 10px 12px;
+    cursor: pointer;
+    transition: all;
+    -webkit-transition: all .3s;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    box-shadow: 10px 12px 15px;
+
+    
+}
+.btn:hover{
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    box-shadow: 10px 12px 15px;
+}
+.heading-heading-yellow{
+    color: orange;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+

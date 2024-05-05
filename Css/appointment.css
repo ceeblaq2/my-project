@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
 body{
     /* background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../Images/kam-idris-_HqHX3LBN18-unsplash.jpg); */
     background-image: url(../Images/kam-idris-_HqHX3LBN18-unsplash.jpg);
@@ -67,10 +72,12 @@ ul li a:hover{
  outline: 3px dashed orange;
  outline-offset: -30px;
 text-align: center;
+color: #fafafa;
 }
 .heading{
     font-size: 35px;
     text-transform: uppercase;
+    color: white;
 }
 .heading-days{
     color: orange;
@@ -134,10 +141,5 @@ button:hover{
 
 
 
-*{
-    margin: 0;
-    padding: 0;
-    /* box-sizing: border-box; */
-}
 
 

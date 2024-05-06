@@ -209,4 +209,12 @@ a:hover{
         margin-right: 5px;
         display: flex;
     }
-}
+        footer {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        footer.column {
+            width: 100%;
+        }
+    }

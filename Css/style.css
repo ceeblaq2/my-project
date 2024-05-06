@@ -1,38 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
-body{
-    /* background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../Images/kam-idris-_HqHX3LBN18-unsplash.jpg); */
+.con{
     background-image: url(../Images/kam-idris-_HqHX3LBN18-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh; 
     background-position: center center;
 }
-/* header{
-    background-image: url(../Images/kam-idris-_HqHX3LBN18-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-} */
-/* .main{
-    width: 30;
-    background-size: cover;
-    background-position: center;
-    height: 109vh;
-} */
-
-
 .content{
     width: 1200px;
     color: white;
-    /* position: relative; */
     margin-top: 10%;
     padding-left: 25%;
 }
-/* .content p{
-    color: #333; */
 
 .content .par{
     padding-bottom: 25px;
@@ -69,19 +52,3 @@ body{
     background-color: aliceblue;
 
 }
-/* .footerBottom{
-    background-color: orange;
-    padding: 20px;
-    text-align: center;
-}
-.footerBottom p{
-    color: white;
-}
-.designer{
-    opacity: 0.7;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0px 5px;
-} */
-

@@ -67,6 +67,12 @@
     font-weight: 500;
     color: orange;
  }
+ .ema{
+    margin-left: -50%;
+ }
+ .add{
+   margin-left: -50%;
+ }
  .contactForm{
     width: 40%;
     padding: 40px;

@@ -125,7 +125,9 @@ h3{
     list-style-type: none;
     padding: 7px;
     position: relative;
+    
 }
+
 .list li:before{
     content: "";
     position: absolute;
@@ -136,6 +138,8 @@ h3{
     height: 2px;
     background-color: orange;
     transition-duration: 0.5s;
+    text-decoration: none;
+    color: aliceblue;
 }
 .list li:hover::before{
 width: 70px;
